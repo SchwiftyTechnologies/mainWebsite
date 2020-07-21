@@ -18,7 +18,7 @@ class App extends Component {
                 <Work/>
                 <Product/>
                 <Features/>
-                <Feedback/>
+                {/* <Feedback/> */}
                 <Tech/>
                 <Footer/>
             </div>
