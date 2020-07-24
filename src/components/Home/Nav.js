@@ -5,7 +5,7 @@ class Nav extends Component {
         return (
             <nav className ="navbar navbar-expand-lg">
                 <a href="#">
-                    <img alt="Not Found" src={require('../assets/Logo-1.png')} className="ml-lg-0 ml-3" height="40" width="40"></img>
+                    <img alt="Not Found" src={require('../../assets/Logo-1.png')} className="ml-lg-0 ml-3" height="40" width="40"></img>
                     <span className="navbar-brand ml-2">Schwifty Technologies</span>
                 </a>
                 <button className ="navbar-toggler" type ="button" data-toggle ="collapse" data-target ="#colNav">
@@ -25,7 +25,7 @@ class Nav extends Component {
                             <a href="/">Contact Us</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/">Blog</a>
+                            <a href="/blog">Blog</a>
                         </li>
                     </ul>
                     {/* <ul className="navbar-nav ml-auto">
