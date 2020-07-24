@@ -18,8 +18,8 @@
     background-color: whitesmoke;
 }
 .nav-button{
-    margin: 0px 15px 0px 15px;
-    font-size: 1.3rem;
+    margin: 0px 10px 0px 10px;
+    font-size: 1.2rem;
     color: whitesmoke;
     transition-duration: 0.3s;
 }
@@ -83,6 +83,7 @@
     background-color: rgba(0,0,0,0.75);
     min-height: 20vh;
     padding: 5px 30px;
+    margin-top: 150px;
 }
 .top-story-h1{
     transition-duration: 0.1s;
@@ -90,6 +91,11 @@
 a:hover .top-story-h1{
     transition-duration: 0.1s;
     transform: scale(1.02);
+}
+.top3-stories-image{
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
 }
 #top-story-image-para{
     font-size: 1.2rem;
@@ -207,9 +213,12 @@ a #top-story-info{
 #blog-view-heading{
     color: #ffffff;
     background-color: #000000cf;
-    padding: 30px 40px 30px 40px;
+    padding: 30px 70px 30px 70px;
     font-size: 3rem;
     font-weight: 700;
+}
+#blog-view-heading div{
+    font-size: 1.7rem;
 }
 #blog-view-content{
     font-size: 1.2rem;
@@ -219,6 +228,9 @@ a #top-story-info{
     margin: 5px 0px 25px 0px;
     align-self: center;
 }
+/* #blog-view-content p{
+    margin: 5px 0px 25px 0px;
+} */
 #blog-view-content h1{
     margin-top: 15px;
 }
@@ -244,5 +256,12 @@ a #top-story-info{
     }
     #blog-view-content img{
         width: 65%;
+    }
+    .top3-stories-image{
+        min-height: 315px;
+    }
+    #top-story-image-text{
+        padding: 5px 30px;
+        margin-top: 200px;
     }
 }

@@ -13,18 +13,16 @@ class nav extends Component {
             this.setState({visible: false});
             cover.classList.add("nav-cover-expand");
             cover.classList.remove("nav-cover-closed");
-            // mainBody.style.display = "none";
         }
         else{
             this.setState({visible: true});
             cover.classList.add("nav-cover-closed");
             cover.classList.remove("nav-cover-expand");
-            // mainBody.style.display = "block";
         }
     }
 
-    render() {
-        return ( 
+    render(){
+        return (
             <div id="nav-container" className="px-md-5 px-3">
                 <div>
                     <a href="/" className="nav-button">Shwifty tech</a>
@@ -40,5 +38,5 @@ class nav extends Component {
         );
     }
 }
- 
+
 export default nav;
