@@ -48,7 +48,6 @@ class View extends Component {
                 <Nav/>
                 <div className="d-flex flex-column align-items-center">
                     <div id="blog-image-container" className="d-flex flex-column justify-content-end" style={{backgroundImage:`url(${this.state.data.image})`}}>
-                    {/* <div id="blog-image-container" className="d-flex flex-column justify-content-end" style={{backgroundImage:`url(${this.state.data.image})`}}> */}
                         <div id="blog-view-heading">
                             {this.state.data.heading}
                             <div ><small><i>{this.state.data.author}, {this.state.data.created}</i></small></div>
