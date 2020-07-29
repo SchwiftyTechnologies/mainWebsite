@@ -29,7 +29,7 @@ class Top3 extends Component {
         // end
         for(let i = 1 ; i < this.props.data.length ; i++){
             stories.push(
-                <a href="/blog/1" class="story-link px-0 mx-0">
+                <a href="/blog/A-Transition-From-Intel-To-Apple" class="story-link px-0 mx-0">
                     <div className="row right-story-container">
                         {/* src={require(`${this.props.data[i].image}`) */}
                         <div className="col-xl-6 col-md-5 col-12 m-0 top3-stories-image" style={{backgroundImage:`url(${this.props.data[i].image})`}}>

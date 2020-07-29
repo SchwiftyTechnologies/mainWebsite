@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Blog from "./components/Blog/Main";
 import New from "./components/Blog/New";
 import View from "./components/Blog/View";
+import View2 from './components/Blog/View/art2'
 
 class App extends Component {
     render() {
@@ -14,7 +15,8 @@ class App extends Component {
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/blog" component={Blog}/>
                     <Route exact path="/blog/new" component={New}/>
-                    <Route exact path="/blog/1" component={View}/>
+                    <Route exact path="/blog/A-Transition-From-Intel-To-Apple" component={View}/>
+                    <Route exact path="/blog/iPhone-May-No-Longer-Come-With-A-Charger" component={View2}/>
                 </div>
             </BrowserRouter>
         );

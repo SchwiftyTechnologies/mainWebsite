@@ -55,7 +55,7 @@ class OtherStories extends Component {
         for(let i = 0 ; i < this.props.data.length ; i++){
             stories.push(
                 <div className="col-11 col-md-5 col-lg-3 d-flex flex-column container-border m-2 p-0">
-                    <a href="/blog/1" className="other-story-link">
+                    <a href="/blog/iPhone-May-No-Longer-Come-With-A-Charger" className="other-story-link">
                     <img alt="not found" src={this.props.data[i].image} className="w-100 h-auto"/>
                     {/* <img alt="not found" src={require(`${this.props.data[i].image}`)} className="w-100 h-auto"/> */}
                     <h3 className="mt-4 mx-4 story-heading">{this.props.data[i].heading.slice(0,60)}..</h3>

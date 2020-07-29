@@ -16,7 +16,7 @@ class Main extends Component {
                 <Work/>
                 <Product/>
                 <Features/>
-                <Feedback/>
+                {/* <Feedback/> */}
                 <Tech/>
                 <Footer/>
             </React.Fragment>
