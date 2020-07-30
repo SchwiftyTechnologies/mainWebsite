@@ -30,7 +30,7 @@ class topStories extends Component {
                 <div className="row m-0 p-0 pt-5" id="top-stories">
                     <div className="col-xl-7 col-lg-6 col-12 px-0 top-story d-flex flex-column justify-content-end" style={{backgroundImage:`url(${this.props.data[0].image})`}}>
                         <div id="top-story-image-text">
-                            <a href="/blog/iPhone-May-No-Longer-Come-With-A-Charger" className="story-link">
+                            <a href="/blog/1" className="story-link">
                                 <h1 className="text-light mt-2 mt-lg-3 top-story-h1">{this.props.data[0].heading.slice(0,50)}..</h1>
                                 <p id="top-story-info" className="text-light"><i>{this.props.data[0].author} : {this.props.data[0].created}</i></p>
                                 <p id="top-story-image-para" className="mb-2 mb-lg-4">{s} ..</p>
